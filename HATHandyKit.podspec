@@ -15,9 +15,9 @@ This is just an simple pod, use for my HAT progress.
   s.platform = :ios, '8.0'
   s.source_files = 'HATHandyKit/**/*.{h,m}'
   
-  s.resource_bundles = {
-    'HATHandyKit' => ['HATHandyKit/**/*.{storyboard,xib}']
-  }
+  #s.resource_bundles = {
+  #  'HATHandyKit' => ['HATHandyKit/**/*.{storyboard,xib}']
+  #}
   #s.public_header_files = [
   #  'MyOwnPod/MyClassA.h',
   #  'MyOwnPod/MyClassB.h'
