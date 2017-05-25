@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0366E50ADD5480B0CFF2DD23C1AADD0F /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D773B516A554B7EF7D6E943DCD6C463 /* UIColor+expanded.m */; };
+		050F4F6A64737AF44A4B252D8A35E38E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E21E70427E7BA4D98D70C7E79F7E5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2B9F8C0D114F8656C2C40108EBB4B1 /* CoreGraphics.framework */; };
+		14C209EE5CCF3ECB3C109A870E7B7FBA /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC8F86B83DD6F7BA767E575CD5823AB /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3420540714B3C6FBDEA3622B8A1FA378 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
+		3CE61BCA950D1F0801E4A782906BEE49 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45291935F4B9918FB31D7E7677E26973 /* Pods-HATHandyKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCED1AE16D6C839007E76346A59090B /* Pods-HATHandyKitDemo-dummy.m */; };
+		47C96E06040FFC1A08826905E24B9986 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F7070086B0BD8D6417A2F04C7B75F8 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+		539E527F578EC619A072C6E6D7E81005 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 55524DCD74A263F5E64AC6C3040613AF /* UIImage+Common.m */; };
+		57C6A4E57D2106976C9DB67899FA0314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4D41BD131D936B446456DD4C240F45 /* UIKit.framework */; };
+		5E79386759D3E41D138E96A62489F0B5 /* HATHandyKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEF6E8EBF8B37049EA0E09ED685091B9 /* HATHandyKit.bundle */; };
+		63FBAE580196D782C096844373E99C58 /* UIColor+expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F85CFCA98CA8EE37815063F596AB2A1 /* UIColor+expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		789B9392EFE812FEBAA19876D0148084 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B10791E1106F608EC07EA0F8D11F7E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA899E4926844E22E6D8213919C4113 /* Foundation.framework */; };
+		7CBF956818F1EF62D49FE24368E36C88 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		8028091AD80A7AD67A91A4C3825B6C31 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
+		80815993873B0BCEF35854C89C264A59 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		839DB1D2E5F5EC7DCCDA5549114081AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA899E4926844E22E6D8213919C4113 /* Foundation.framework */; };
+		844516096A9FA6E05215A0F766F37CD5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		87C77B0D1CC37EBEB577839F64945800 /* Pods-HATHandyKitDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1CC3D1841A8309BA38BE3D38525B785 /* Pods-HATHandyKitDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B6A45AEB5949242A08FB81FE774BB8F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
+		AEE1E37939328E37BA08FB71A9BF37E4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFEDBEE425784081ED03A4534A187722 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C123A6BCA53B74F658CF6937810E9D06 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C218F1EA67C86CEDEFE711DBF037C6A3 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C54DAAFDCBE0EDAA05C8FF5466327085 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		CBEEC42D38621A9A7274D8D289BABC42 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC8852D8DAD3578704AA96E4A178C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA899E4926844E22E6D8213919C4113 /* Foundation.framework */; };
+		D71C9208272A02DFE9F2C7F5AA9CEF89 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16BE983CF6FD2C60CA8DD76FE9F4C50 /* Masonry.framework */; };
+		DB98D5323D22AF51496951DBC2BC6587 /* HATHandyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39660FDBE79E5CB967D68AAC79E20FF0 /* HATHandyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDEA6A06E909F5BF4721AF0A56E41D49 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		DEAD5F1B99EF66E0ABCA42EFE2A61813 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
+		DEF04AA25EB72AC7DFC94BFFFD378C86 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		E01595DE848E052832C0527EC2EBC60C /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6ACEA306DC4411C8BB83C91A2C5EA84 /* HATHandyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E770D692879435EE5FB469685A8B010 /* HATHandyKit-dummy.m */; };
+		E82FA6756C4A75FF55C388DFB727DE2E /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE84C09ECA87056346039E4FC72562B1 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F370616426534C5128CA3BBB9EF24180 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5AE66B30574B33A8CB879B52CCBDA18 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		FA3179F83904C56326D54FC7B4707902 /* UIImage+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2B4DAEE97E639D019A3170785195FD /* UIImage+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC0623155498AAE710C61FBC32D6D159 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4D41BD131D936B446456DD4C240F45 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36DFB62A8BCE6BE6D03295DFAB5B29D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EE669FB4DCA4966151936E89121BAF1;
+			remoteInfo = "HATHandyKit-HATHandyKit";
+		};
+		3867DD7B909ECD2162BC965F67861914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C33803A9DE9BDED13D79AA5D9C6C44;
+			remoteInfo = Masonry;
+		};
+		693DECB6539E5D31E6231F7CCBA3B435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4ABE93BDC453253F84678A9DED9B77;
+			remoteInfo = HATHandyKit;
+		};
+		AE4422E11A2F35DB0996B5C62ACA3BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C33803A9DE9BDED13D79AA5D9C6C44;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041F49670B63DDA8794A5D55C157CFA0 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		056D127E1538F1C990CECAC3BC7363E0 /* Pods-HATHandyKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HATHandyKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		0CA899E4926844E22E6D8213919C4113 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		1637E9557EBAB1314FB79F276D5820F7 /* Pods-HATHandyKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HATHandyKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C55941701B1966CCC44A36246C71B9A /* ResourceBundle-HATHandyKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HATHandyKit-Info.plist"; sourceTree = "<group>"; };
+		1E770D692879435EE5FB469685A8B010 /* HATHandyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HATHandyKit-dummy.m"; sourceTree = "<group>"; };
+		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		332CD6BA0A601EF623A063D809697AEE /* HATHandyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HATHandyKit.framework; path = HATHandyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39660FDBE79E5CB967D68AAC79E20FF0 /* HATHandyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HATHandyKit-umbrella.h"; sourceTree = "<group>"; };
+		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3B2B9F8C0D114F8656C2C40108EBB4B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4A4D41BD131D936B446456DD4C240F45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		521E9C073A93C232C21D4F80987B5543 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		55524DCD74A263F5E64AC6C3040613AF /* UIImage+Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		5BCED1AE16D6C839007E76346A59090B /* Pods-HATHandyKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HATHandyKitDemo-dummy.m"; sourceTree = "<group>"; };
+		5F85CFCA98CA8EE37815063F596AB2A1 /* UIColor+expanded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		6018F46E475BF6D8ED7AAF468913BB6F /* Pods-HATHandyKitDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HATHandyKitDemo-resources.sh"; sourceTree = "<group>"; };
+		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		6C950FDF35C717B14FCCD372A3EA5374 /* HATHandyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HATHandyKit.modulemap; sourceTree = "<group>"; };
+		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7D773B516A554B7EF7D6E943DCD6C463 /* UIColor+expanded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		7F44A621BE24B87AEF75DD7193846188 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8336887D8360F80E573A35400A153F71 /* Pods_HATHandyKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HATHandyKitDemo.framework; path = "Pods-HATHandyKitDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		9F2B4DAEE97E639D019A3170785195FD /* UIImage+Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A176CDD73C6EABC69CC8A7B06ACCFF7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2045F193C3DF514206AC0ED8B12F0C6 /* Pods-HATHandyKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HATHandyKitDemo-frameworks.sh"; sourceTree = "<group>"; };
+		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		A6B6A16EA0D60F8E91580CAF545AACB4 /* Pods-HATHandyKitDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HATHandyKitDemo.modulemap"; sourceTree = "<group>"; };
+		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BB418D9F251470CB6EE6A979A0EBC40F /* Pods-HATHandyKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HATHandyKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		E7ADD67FF3EDA75B2E817643BE20BA6A /* HATHandyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HATHandyKit-prefix.pch"; sourceTree = "<group>"; };
+		EC8A963A3A5B225B6AA0B0BDC460C25A /* Pods-HATHandyKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HATHandyKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		EEF6E8EBF8B37049EA0E09ED685091B9 /* HATHandyKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HATHandyKit.bundle; path = HATHandyKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16BE983CF6FD2C60CA8DD76FE9F4C50 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CC3D1841A8309BA38BE3D38525B785 /* Pods-HATHandyKitDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HATHandyKitDemo-umbrella.h"; sourceTree = "<group>"; };
+		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F9CEC876186892AFD7417ECCA01CF3C6 /* HATHandyKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HATHandyKit.xcconfig; sourceTree = "<group>"; };
+		FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E8272F9DD7CA977AF45249F4A498DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B10791E1106F608EC07EA0F8D11F7E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD33309B935A96B0D0D4679529F5914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC8852D8DAD3578704AA96E4A178C21 /* Foundation.framework in Frameworks */,
+				57C6A4E57D2106976C9DB67899FA0314 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C336548F833336A7DC7B7C82497914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E21E70427E7BA4D98D70C7E79F7E5E /* CoreGraphics.framework in Frameworks */,
+				839DB1D2E5F5EC7DCCDA5549114081AB /* Foundation.framework in Frameworks */,
+				D71C9208272A02DFE9F2C7F5AA9CEF89 /* Masonry.framework in Frameworks */,
+				FC0623155498AAE710C61FBC32D6D159 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E940D65F58D895186BBDF9A9AB8D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065B2497B7D1427B53F490E979E1F094 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				701F344168D5FF0A6AF8DC502A538B1A /* HATHandyKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1FCC97CA16099C457AB9FB03A84ACFE7 /* Pods-HATHandyKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A176CDD73C6EABC69CC8A7B06ACCFF7F /* Info.plist */,
+				A6B6A16EA0D60F8E91580CAF545AACB4 /* Pods-HATHandyKitDemo.modulemap */,
+				EC8A963A3A5B225B6AA0B0BDC460C25A /* Pods-HATHandyKitDemo-acknowledgements.markdown */,
+				1637E9557EBAB1314FB79F276D5820F7 /* Pods-HATHandyKitDemo-acknowledgements.plist */,
+				5BCED1AE16D6C839007E76346A59090B /* Pods-HATHandyKitDemo-dummy.m */,
+				A2045F193C3DF514206AC0ED8B12F0C6 /* Pods-HATHandyKitDemo-frameworks.sh */,
+				6018F46E475BF6D8ED7AAF468913BB6F /* Pods-HATHandyKitDemo-resources.sh */,
+				F1CC3D1841A8309BA38BE3D38525B785 /* Pods-HATHandyKitDemo-umbrella.h */,
+				BB418D9F251470CB6EE6A979A0EBC40F /* Pods-HATHandyKitDemo.debug.xcconfig */,
+				056D127E1538F1C990CECAC3BC7363E0 /* Pods-HATHandyKitDemo.release.xcconfig */,
+			);
+			name = "Pods-HATHandyKitDemo";
+			path = "Target Support Files/Pods-HATHandyKitDemo";
+			sourceTree = "<group>";
+		};
+		24D0114896E35657D311F3B709CDDAAC /* HATHandyKit */ = {
+			isa = PBXGroup;
+			children = (
+				5F85CFCA98CA8EE37815063F596AB2A1 /* UIColor+expanded.h */,
+				7D773B516A554B7EF7D6E943DCD6C463 /* UIColor+expanded.m */,
+				9F2B4DAEE97E639D019A3170785195FD /* UIImage+Common.h */,
+				55524DCD74A263F5E64AC6C3040613AF /* UIImage+Common.m */,
+			);
+			name = HATHandyKit;
+			path = HATHandyKit;
+			sourceTree = "<group>";
+		};
+		451209F35B3B045008EE81531E72D3D8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B9F8C0D114F8656C2C40108EBB4B1 /* CoreGraphics.framework */,
+				0CA899E4926844E22E6D8213919C4113 /* Foundation.framework */,
+				4A4D41BD131D936B446456DD4C240F45 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4CB4C345B31E772BE738DDD12B5A0561 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C950FDF35C717B14FCCD372A3EA5374 /* HATHandyKit.modulemap */,
+				F9CEC876186892AFD7417ECCA01CF3C6 /* HATHandyKit.xcconfig */,
+				1E770D692879435EE5FB469685A8B010 /* HATHandyKit-dummy.m */,
+				E7ADD67FF3EDA75B2E817643BE20BA6A /* HATHandyKit-prefix.pch */,
+				39660FDBE79E5CB967D68AAC79E20FF0 /* HATHandyKit-umbrella.h */,
+				521E9C073A93C232C21D4F80987B5543 /* Info.plist */,
+				1C55941701B1966CCC44A36246C71B9A /* ResourceBundle-HATHandyKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/HATHandyKit";
+			sourceTree = "<group>";
+		};
+		594029D41E1F9D965D3AE1FB3E618F69 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FCC97CA16099C457AB9FB03A84ACFE7 /* Pods-HATHandyKitDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		701F344168D5FF0A6AF8DC502A538B1A /* HATHandyKit */ = {
+			isa = PBXGroup;
+			children = (
+				24D0114896E35657D311F3B709CDDAAC /* HATHandyKit */,
+				4CB4C345B31E772BE738DDD12B5A0561 /* Support Files */,
+			);
+			name = HATHandyKit;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				065B2497B7D1427B53F490E979E1F094 /* Development Pods */,
+				8423AF42BCF3A282D21D6C83C0D1863F /* Frameworks */,
+				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
+				A8616A4338EC4112D2FC2F8D97D2E006 /* Products */,
+				594029D41E1F9D965D3AE1FB3E618F69 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8423AF42BCF3A282D21D6C83C0D1863F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F16BE983CF6FD2C60CA8DD76FE9F4C50 /* Masonry.framework */,
+				451209F35B3B045008EE81531E72D3D8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */,
+				537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */,
+				ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */,
+				986CB32629319F7F2256662716334944 /* MASConstraint.m */,
+				77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */,
+				A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */,
+				FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */,
+				C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */,
+				611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */,
+				303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */,
+				AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */,
+				96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */,
+				0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */,
+				1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */,
+				6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */,
+				5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */,
+				B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */,
+				F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */,
+				2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */,
+				7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */,
+				61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */,
+				C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */,
+				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
+				AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		A8616A4338EC4112D2FC2F8D97D2E006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF6E8EBF8B37049EA0E09ED685091B9 /* HATHandyKit.bundle */,
+				332CD6BA0A601EF623A063D809697AEE /* HATHandyKit.framework */,
+				041F49670B63DDA8794A5D55C157CFA0 /* Masonry.framework */,
+				8336887D8360F80E573A35400A153F71 /* Pods_HATHandyKitDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F44A621BE24B87AEF75DD7193846188 /* Info.plist */,
+				3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */,
+				61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */,
+				FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */,
+				CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */,
+				13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29F0EF3E55CB3D328417597704F78DFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050F4F6A64737AF44A4B252D8A35E38E /* MASCompositeConstraint.h in Headers */,
+				80815993873B0BCEF35854C89C264A59 /* MASConstraint+Private.h in Headers */,
+				E01595DE848E052832C0527EC2EBC60C /* MASConstraint.h in Headers */,
+				47C96E06040FFC1A08826905E24B9986 /* MASConstraintMaker.h in Headers */,
+				C218F1EA67C86CEDEFE711DBF037C6A3 /* MASLayoutConstraint.h in Headers */,
+				3CE61BCA950D1F0801E4A782906BEE49 /* Masonry-umbrella.h in Headers */,
+				C123A6BCA53B74F658CF6937810E9D06 /* Masonry.h in Headers */,
+				14C209EE5CCF3ECB3C109A870E7B7FBA /* MASUtilities.h in Headers */,
+				F370616426534C5128CA3BBB9EF24180 /* MASViewAttribute.h in Headers */,
+				789B9392EFE812FEBAA19876D0148084 /* MASViewConstraint.h in Headers */,
+				EE84C09ECA87056346039E4FC72562B1 /* NSArray+MASAdditions.h in Headers */,
+				E82FA6756C4A75FF55C388DFB727DE2E /* NSArray+MASShorthandAdditions.h in Headers */,
+				CBEEC42D38621A9A7274D8D289BABC42 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				BFEDBEE425784081ED03A4534A187722 /* View+MASAdditions.h in Headers */,
+				2BC8F86B83DD6F7BA767E575CD5823AB /* View+MASShorthandAdditions.h in Headers */,
+				AEE1E37939328E37BA08FB71A9BF37E4 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C35C06624FACBAE94CFE94822F1CB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB98D5323D22AF51496951DBC2BC6587 /* HATHandyKit-umbrella.h in Headers */,
+				63FBAE580196D782C096844373E99C58 /* UIColor+expanded.h in Headers */,
+				FA3179F83904C56326D54FC7B4707902 /* UIImage+Common.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B248538FBB7BC3E9B28DA7DFB258A1CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C77B0D1CC37EBEB577839F64945800 /* Pods-HATHandyKitDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02C33803A9DE9BDED13D79AA5D9C6C44 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748423B3D1292B940FF86F1992E0D871 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				5C8A3D48748BD8B10039D2B2A30218B5 /* Sources */,
+				4DD33309B935A96B0D0D4679529F5914 /* Frameworks */,
+				29F0EF3E55CB3D328417597704F78DFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 041F49670B63DDA8794A5D55C157CFA0 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F4ABE93BDC453253F84678A9DED9B77 /* HATHandyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E098732BEC60C5EA04C103BBFD311CEF /* Build configuration list for PBXNativeTarget "HATHandyKit" */;
+			buildPhases = (
+				3BB6696C674A3F84BD288DEFB7707E95 /* Sources */,
+				79C336548F833336A7DC7B7C82497914 /* Frameworks */,
+				05E862EFE368F66FCDD9247E7C6729B2 /* Resources */,
+				79C35C06624FACBAE94CFE94822F1CB7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26965C4A348450F0DE9CBD628103B87C /* PBXTargetDependency */,
+				888E2EAAF85A5C4AB2F31B3560493F2D /* PBXTargetDependency */,
+			);
+			name = HATHandyKit;
+			productName = HATHandyKit;
+			productReference = 332CD6BA0A601EF623A063D809697AEE /* HATHandyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7EE669FB4DCA4966151936E89121BAF1 /* HATHandyKit-HATHandyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54BE80E46AF68EF947DD97B1C713C1CE /* Build configuration list for PBXNativeTarget "HATHandyKit-HATHandyKit" */;
+			buildPhases = (
+				9EC2D1ED6881A4BB7CFE9749E65160DB /* Sources */,
+				D9E940D65F58D895186BBDF9A9AB8D03 /* Frameworks */,
+				A8865279528994C0238A1672ED665E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HATHandyKit-HATHandyKit";
+			productName = "HATHandyKit-HATHandyKit";
+			productReference = EEF6E8EBF8B37049EA0E09ED685091B9 /* HATHandyKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		94A30A1056CC2EA0681909A4C4A33F6B /* Pods-HATHandyKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB519DB4FC9A9E574EC1094F61CCFD87 /* Build configuration list for PBXNativeTarget "Pods-HATHandyKitDemo" */;
+			buildPhases = (
+				5AB6AB4882E626E1B2D8B524A9D5DFA4 /* Sources */,
+				3E8272F9DD7CA977AF45249F4A498DF0 /* Frameworks */,
+				B248538FBB7BC3E9B28DA7DFB258A1CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2663E8ECEF59D8494CE9E4F72C730C9D /* PBXTargetDependency */,
+				EA467D9D90E2EE819DB16E93FB6D26F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-HATHandyKitDemo";
+			productName = "Pods-HATHandyKitDemo";
+			productReference = 8336887D8360F80E573A35400A153F71 /* Pods_HATHandyKitDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A8616A4338EC4112D2FC2F8D97D2E006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F4ABE93BDC453253F84678A9DED9B77 /* HATHandyKit */,
+				7EE669FB4DCA4966151936E89121BAF1 /* HATHandyKit-HATHandyKit */,
+				02C33803A9DE9BDED13D79AA5D9C6C44 /* Masonry */,
+				94A30A1056CC2EA0681909A4C4A33F6B /* Pods-HATHandyKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05E862EFE368F66FCDD9247E7C6729B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E79386759D3E41D138E96A62489F0B5 /* HATHandyKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8865279528994C0238A1672ED665E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB6696C674A3F84BD288DEFB7707E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6ACEA306DC4411C8BB83C91A2C5EA84 /* HATHandyKit-dummy.m in Sources */,
+				0366E50ADD5480B0CFF2DD23C1AADD0F /* UIColor+expanded.m in Sources */,
+				539E527F578EC619A072C6E6D7E81005 /* UIImage+Common.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB6AB4882E626E1B2D8B524A9D5DFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45291935F4B9918FB31D7E7677E26973 /* Pods-HATHandyKitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8A3D48748BD8B10039D2B2A30218B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AE66B30574B33A8CB879B52CCBDA18 /* MASCompositeConstraint.m in Sources */,
+				844516096A9FA6E05215A0F766F37CD5 /* MASConstraint.m in Sources */,
+				3420540714B3C6FBDEA3622B8A1FA378 /* MASConstraintMaker.m in Sources */,
+				DDEA6A06E909F5BF4721AF0A56E41D49 /* MASLayoutConstraint.m in Sources */,
+				8028091AD80A7AD67A91A4C3825B6C31 /* Masonry-dummy.m in Sources */,
+				DEF04AA25EB72AC7DFC94BFFFD378C86 /* MASViewAttribute.m in Sources */,
+				DEAD5F1B99EF66E0ABCA42EFE2A61813 /* MASViewConstraint.m in Sources */,
+				7CBF956818F1EF62D49FE24368E36C88 /* NSArray+MASAdditions.m in Sources */,
+				C54DAAFDCBE0EDAA05C8FF5466327085 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				52F7070086B0BD8D6417A2F04C7B75F8 /* View+MASAdditions.m in Sources */,
+				9B6A45AEB5949242A08FB81FE774BB8F /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC2D1ED6881A4BB7CFE9749E65160DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2663E8ECEF59D8494CE9E4F72C730C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HATHandyKit;
+			target = 4F4ABE93BDC453253F84678A9DED9B77 /* HATHandyKit */;
+			targetProxy = 693DECB6539E5D31E6231F7CCBA3B435 /* PBXContainerItemProxy */;
+		};
+		26965C4A348450F0DE9CBD628103B87C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HATHandyKit-HATHandyKit";
+			target = 7EE669FB4DCA4966151936E89121BAF1 /* HATHandyKit-HATHandyKit */;
+			targetProxy = 36DFB62A8BCE6BE6D03295DFAB5B29D8 /* PBXContainerItemProxy */;
+		};
+		888E2EAAF85A5C4AB2F31B3560493F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 02C33803A9DE9BDED13D79AA5D9C6C44 /* Masonry */;
+			targetProxy = AE4422E11A2F35DB0996B5C62ACA3BEE /* PBXContainerItemProxy */;
+		};
+		EA467D9D90E2EE819DB16E93FB6D26F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 02C33803A9DE9BDED13D79AA5D9C6C44 /* Masonry */;
+			targetProxy = 3867DD7B909ECD2162BC965F67861914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		195BF4184BE29F245F3020F3E6F3A120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CEC876186892AFD7417ECCA01CF3C6 /* HATHandyKit.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HATHandyKit";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HATHandyKit/ResourceBundle-HATHandyKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HATHandyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		43414A9C041E86B6BF1F898D8A15B582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CEC876186892AFD7417ECCA01CF3C6 /* HATHandyKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HATHandyKit/HATHandyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HATHandyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HATHandyKit/HATHandyKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HATHandyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AC3D8F625C98D3099E2EB3C001144D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056D127E1538F1C990CECAC3BC7363E0 /* Pods-HATHandyKitDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HATHandyKitDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HATHandyKitDemo/Pods-HATHandyKitDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HATHandyKitDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DABD01896D32DC5218ADB2080EB6928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB418D9F251470CB6EE6A979A0EBC40F /* Pods-HATHandyKitDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HATHandyKitDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HATHandyKitDemo/Pods-HATHandyKitDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HATHandyKitDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FFAAD898052F90DC2B86FF68D1D17D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		804819CFF3F3B4DA3531A71F6EB3178C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CEC876186892AFD7417ECCA01CF3C6 /* HATHandyKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HATHandyKit/HATHandyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HATHandyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HATHandyKit/HATHandyKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HATHandyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BAF89BB66F6E4A7A0A0B7B10B71F6244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1EABDA64F854F0A876D74C85C993AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CEC876186892AFD7417ECCA01CF3C6 /* HATHandyKit.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HATHandyKit";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HATHandyKit/ResourceBundle-HATHandyKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HATHandyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54BE80E46AF68EF947DD97B1C713C1CE /* Build configuration list for PBXNativeTarget "HATHandyKit-HATHandyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195BF4184BE29F245F3020F3E6F3A120 /* Debug */,
+				C1EABDA64F854F0A876D74C85C993AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		748423B3D1292B940FF86F1992E0D871 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF89BB66F6E4A7A0A0B7B10B71F6244 /* Debug */,
+				7FFAAD898052F90DC2B86FF68D1D17D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E098732BEC60C5EA04C103BBFD311CEF /* Build configuration list for PBXNativeTarget "HATHandyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43414A9C041E86B6BF1F898D8A15B582 /* Debug */,
+				804819CFF3F3B4DA3531A71F6EB3178C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB519DB4FC9A9E574EC1094F61CCFD87 /* Build configuration list for PBXNativeTarget "Pods-HATHandyKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DABD01896D32DC5218ADB2080EB6928 /* Debug */,
+				5AC3D8F625C98D3099E2EB3C001144D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
