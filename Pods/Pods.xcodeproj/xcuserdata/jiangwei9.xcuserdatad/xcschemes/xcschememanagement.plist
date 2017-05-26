@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>HATHandyKit-HATHandyKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>HATHandyKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,17 +22,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>02C33803A9DE9BDED13D79AA5D9C6C44</key>
+		<key>15CF1F957FDBBF107198DE12311DE979</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4F4ABE93BDC453253F84678A9DED9B77</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7EE669FB4DCA4966151936E89121BAF1</key>
+		<key>4D48006F7731A4B7A2CCE6D44E542595</key>
 		<dict>
 			<key>primary</key>
 			<true/>

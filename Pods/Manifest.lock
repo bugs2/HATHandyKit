@@ -1,19 +1,15 @@
 PODS:
-  - HATHandyKit (0.1.0):
+  - HATHandyKit (0.2.0):
     - Masonry
   - Masonry (1.0.2)
 
 DEPENDENCIES:
-  - HATHandyKit (from `.`)
-
-EXTERNAL SOURCES:
-  HATHandyKit:
-    :path: "."
+  - HATHandyKit (~> 0.2.0)
 
 SPEC CHECKSUMS:
-  HATHandyKit: 6d847b13876bd3fcf57a465b7f3b24dcdb78309c
+  HATHandyKit: 3f13bebc1d6df6cd33c73ad95cd6d6c0b67706d2
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: ae6d18afb9668f6aa6508f961c94e67d5da26246
+PODFILE CHECKSUM: f8869fc3731ac0f445f67c4eaf4e7622d7571eb4
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

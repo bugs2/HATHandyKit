@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "UIColor+expanded.h"
 #import "UIImage+Common.h"
 
 FOUNDATION_EXPORT double HATHandyKitVersionNumber;
