@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name             = 'HATHandyKit'
-  s.version          = '0.3.0'
+  s.version          = '0.5.0'
   s.summary          = 'HATHandyKit pod for some project.'
   s.description      = <<-DESC
 This is just an simple pod, use for my HAT progress.
@@ -13,14 +13,14 @@ This is just an simple pod, use for my HAT progress.
   s.source           = { :git => 'https://github.com/bugs2/HATHandyKit.git', :tag => s.version }
  # s.social_media_url = 'https://twitter.com/ericksli'
   s.platform = :ios, '8.0'
-  s.source_files = 'HATHandyKit/HATHandyKitFramework/HATHandyKitFramework/HATHandyKitCode/**/*.{h,m}'
+  s.source_files = 'HATHandyKit/HATHandyKitCode/**/*.{h,m}'
   #s.source_files = 'HATHandyKit/**/*.{h,m}'
   
   s.resource_bundles = {
-    'HATHandyKit' => ['HATHandyKit/HATHandyKitFramework/HATHandyKitFramework/HATHandyKitCode/**/*.{storyboard,xib}']
+    'HATHandyKit' => ['HATHandyKit/HATHandyKitCode/**/*.{storyboard,xib,bundle}']
   }
   
-  s.public_header_files = 'HATHandyKit/HATHandyKitFramework/HATHandyKitFramework/HATHandyKitCode/**/*.h'
+  s.public_header_files = 'HATHandyKit/HATHandyKitCode/**/*.h'
   
   s.frameworks = 'UIKit', 'CoreGraphics'
   #s.library = 'xml2'
