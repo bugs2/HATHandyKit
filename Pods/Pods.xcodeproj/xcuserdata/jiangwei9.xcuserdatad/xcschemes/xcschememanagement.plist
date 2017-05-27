@@ -4,7 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>HATHandyKit-HATHandyKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>HATHandyKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -19,20 +39,60 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YTKNetwork.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>15CF1F957FDBBF107198DE12311DE979</key>
+		<key>082470A9A19E65785B22C339C588C03B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4D48006F7731A4B7A2CCE6D44E542595</key>
+		<key>0B92373356E493AC0E89720308DE4294</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>94A30A1056CC2EA0681909A4C4A33F6B</key>
+		<key>505164674DED6C16F2CB4B67706A56DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DCC8D1A918C09181CF2BEDA973106A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B7E5A00270F8C95FE868AC1B1657E8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3EDA7223710384F2BEA0D450EAB4702</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB39F1EDD830B7AA675AE3DDDA67F943</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB9757760170D7B81E1F6C5AD063B781</key>
 		<dict>
 			<key>primary</key>
 			<true/>

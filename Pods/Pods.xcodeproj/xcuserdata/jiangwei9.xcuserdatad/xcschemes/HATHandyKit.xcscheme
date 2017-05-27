@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4D48006F7731A4B7A2CCE6D44E542595'
+               BlueprintIdentifier = '6DCC8D1A918C09181CF2BEDA973106A9'
                BlueprintName = 'HATHandyKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'HATHandyKit.framework'>

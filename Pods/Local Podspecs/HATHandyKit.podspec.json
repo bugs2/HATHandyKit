@@ -1,0 +1,50 @@
+{
+  "name": "HATHandyKit",
+  "version": "0.3.0",
+  "summary": "HATHandyKit pod for some project.",
+  "description": "This is just an simple pod, use for my HAT progress.",
+  "homepage": "https://github.com/bugs2/HATHandyKit",
+  "license": {
+    "type": "proprietary",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bugs2": "mcckoy@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/bugs2/HATHandyKit.git",
+    "tag": "0.3.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HATHandyKit/HATHandyKitFramework/HATHandyKitFramework/HATHandyKitCode/**/*.{h,m}",
+  "resource_bundles": {
+    "HATHandyKit": [
+      "HATHandyKit/HATHandyKitFramework/HATHandyKitFramework/HATHandyKitCode/**/*.{storyboard,xib}"
+    ]
+  },
+  "public_header_files": "HATHandyKit/HATHandyKitFramework/HATHandyKitFramework/HATHandyKitCode/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "CoreGraphics"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "YTKNetwork": [
+
+    ]
+  },
+  "requires_arc": true
+}

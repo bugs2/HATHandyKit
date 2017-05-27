@@ -1,15 +1,50 @@
 PODS:
-  - HATHandyKit (0.2.0):
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - HATHandyKit (0.3.0):
     - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YTKNetwork
   - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - YTKNetwork (2.0.3):
+    - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
-  - HATHandyKit (~> 0.2.0)
+  - HATHandyKit (from `.`)
+
+EXTERNAL SOURCES:
+  HATHandyKit:
+    :path: "."
 
 SPEC CHECKSUMS:
-  HATHandyKit: 3f13bebc1d6df6cd33c73ad95cd6d6c0b67706d2
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  HATHandyKit: 5053b3e070e5c0c1e9c0dd17327025024d070633
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  YTKNetwork: c4b0c29c9d639dc050d475de69ee626d53eac598
 
-PODFILE CHECKSUM: f8869fc3731ac0f445f67c4eaf4e7622d7571eb4
+PODFILE CHECKSUM: e4c74e907dfed94c0ed19fcefff2a4a08116b973
 
 COCOAPODS: 1.2.1
