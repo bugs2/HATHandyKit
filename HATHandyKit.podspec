@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name             = 'HATHandyKit'
-  s.version          = '0.14.0'
+  s.version          = '0.15.0'
   s.summary          = 'HATHandyKit pod for some project.'
   s.description      = <<-DESC
 This is just an simple pod, use for my HAT progress.
