@@ -23,7 +23,7 @@ pod 'HATHandyKit', :path => '.'
 #pod 'HATHandyKit', '~> 0.2.0'
 #pod 'HATHandyKit'
 
-##pod 'HATHandyKit', :git => 'https://github.com/bugs2/HATHandyKit.git'
+#pod 'HATHandyKit', :git => 'https://github.com/bugs2/HATHandyKit.git'
 
 
 

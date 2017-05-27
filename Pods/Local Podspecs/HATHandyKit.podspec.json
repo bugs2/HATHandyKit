@@ -1,6 +1,6 @@
 {
   "name": "HATHandyKit",
-  "version": "0.3.0",
+  "version": "0.7.0",
   "summary": "HATHandyKit pod for some project.",
   "description": "This is just an simple pod, use for my HAT progress.",
   "homepage": "https://github.com/bugs2/HATHandyKit",
@@ -13,18 +13,18 @@
   },
   "source": {
     "git": "https://github.com/bugs2/HATHandyKit.git",
-    "tag": "0.3.0"
+    "tag": "0.7.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HATHandyKit/HATHandyKitFramework/HATHandyKitFramework/HATHandyKitCode/**/*.{h,m}",
+  "source_files": "HATHandyKit/**/*.{h,m}",
   "resource_bundles": {
     "HATHandyKit": [
-      "HATHandyKit/HATHandyKitFramework/HATHandyKitFramework/HATHandyKitCode/**/*.{storyboard,xib}"
+      "HATHandyKit/**/*.{storyboard,xib,bundle}"
     ]
   },
-  "public_header_files": "HATHandyKit/HATHandyKitFramework/HATHandyKitFramework/HATHandyKitCode/**/*.h",
+  "public_header_files": "HATHandyKit/**/*.h",
   "frameworks": [
     "UIKit",
     "CoreGraphics"

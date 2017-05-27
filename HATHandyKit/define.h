@@ -16,10 +16,7 @@
 #import "UIImage+Common.h"
 #import "UIView+Additions.h"
 #import "UIView+AddGradient.h"
-
 #import "InteractionMaster.h"
-#import "MJRefresh.h"
-
 #import "YTKBaseRequest+AnimatingAccessory.h"
 
 #pragma mark - window

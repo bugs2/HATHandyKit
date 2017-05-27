@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - HATHandyKit (0.3.0):
+  - HATHandyKit (0.7.0):
     - Masonry
     - MBProgressHUD
     - MJRefresh
@@ -38,13 +38,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  HATHandyKit: 5053b3e070e5c0c1e9c0dd17327025024d070633
+  HATHandyKit: 31111e0b60d514ef218ad7713118a92001d51a5b
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   YTKNetwork: c4b0c29c9d639dc050d475de69ee626d53eac598
 
-PODFILE CHECKSUM: e4c74e907dfed94c0ed19fcefff2a4a08116b973
+PODFILE CHECKSUM: 543348833ab022475636a460091a95bc161832fd
 
 COCOAPODS: 1.2.1
