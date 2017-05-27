@@ -21,6 +21,7 @@
 #import "NSString+Secret.h"
 #import "NSString+Sha256.h"
 #import "NSString+Time.h"
+#import "HACMBProgressHUD.h"
 #import "InteractionDelegate.h"
 #import "InteractionMaster.h"
 #import "LoadingImageView.h"

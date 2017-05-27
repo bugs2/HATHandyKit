@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "InteractionDelegate.h"
+#import "HACMBProgressHUD.h"
 
 
 @class HACMBProgressHUD;
@@ -16,11 +17,6 @@ typedef void(^ConfirmActionBlock)();
 typedef void(^CancelActionBlock)();
 
 typedef void(^ActionSheetSelectionBlock)(NSInteger buttonIndex);
-
-@interface HACMBProgressHUD : MBProgressHUD
-@property (assign, nonatomic) CGFloat leftMargin;
-@end
-
 
 @interface InteractionMaster : NSObject
 

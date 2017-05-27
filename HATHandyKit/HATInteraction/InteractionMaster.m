@@ -12,32 +12,6 @@
 #import "MBProgressHUD.h"
 #import "define.h"
 
-@implementation HACMBProgressHUD
-
-- (void)setLeftMargin:(CGFloat)margin {
-    if (margin != _leftMargin) {
-        _leftMargin = margin;
-        [self setNeedsUpdateConstraints];
-    }
-}
-
-- (void)updateConstraints {
-    [super updateConstraints];
-    
-    
-    for (NSLayoutConstraint *constrant in self.bezelView.constraints) {
-        NSLayoutAttribute attribute1 = constrant.firstAttribute;
-        NSLayoutAttribute attribute2 = constrant.secondAttribute;
-        
-        if ((attribute1 == attribute2) && (attribute1 == NSLayoutAttributeLeading || attribute1 == NSLayoutAttributeTrailing)) {
-            constrant.constant = self.leftMargin;
-        }
-    }
-}
-
-@end
-
-
 @implementation InteractionMaster
 
 + (void)alertWithTitle:(NSString *)title message:(NSString *)message viewController:(id)viewController confirmButtonTitle:(NSString *)confirmButtonTitle cancelButtonTitle:(NSString *)cancelButtonTitle confirmActionBlock:(ConfirmActionBlock)confirmActionBlock cancelActionBlock:(CancelActionBlock)cancelActionBlock {
