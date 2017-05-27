@@ -13,14 +13,14 @@ This is just an simple pod, use for my HAT progress.
   s.source           = { :git => 'https://github.com/bugs2/HATHandyKit.git', :tag => s.version }
   s.social_media_url = 'https://github.com/bugs2'
   s.platform = :ios, '8.0'
-  s.source_files = 'HATHandyKit/Class/**/*.{h,m}'
+  s.source_files = 'HATHandyKit/Classes/**/*.{h,m}'
   #s.source_files = 'HATHandyKit/**/*.{h,m}'
   
   s.resource_bundles = {
-    'HATHandyKit' => ['HATHandyKit/Class/**/*.{storyboard,xib,bundle}']
+    'HATHandyKit' => ['HATHandyKit/Classes/**/*.{storyboard,xib,bundle}']
   }
   
-  s.public_header_files = 'HATHandyKit/Class/**/*.h'
+  s.public_header_files = 'HATHandyKit/Classes/**/*.h'
   
   s.frameworks = 'UIKit', 'CoreGraphics'
   #s.library = 'xml2'
