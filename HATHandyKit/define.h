@@ -17,7 +17,6 @@
 #import "UIView+Additions.h"
 #import "UIView+AddGradient.h"
 #import "InteractionMaster.h"
-#import "YTKBaseRequest+AnimatingAccessory.h"
 
 #pragma mark - window
 #define kKeyWindow [UIApplication sharedApplication].keyWindow

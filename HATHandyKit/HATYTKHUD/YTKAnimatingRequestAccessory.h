@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-#import "YTKBaseRequest.h"
-#import "InteractionMaster.h"
+#import <YTKNetwork/YTKNetwork.h>
 #import "define.h"
 
 
