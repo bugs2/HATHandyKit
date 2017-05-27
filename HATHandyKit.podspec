@@ -11,7 +11,7 @@ This is just an simple pod, use for my HAT progress.
   s.license          = { :type => 'proprietary', :file => 'LICENSE' }
   s.author           = { 'bugs2' => 'mcckoy@qq.com' }
   s.source           = { :git => 'https://github.com/bugs2/HATHandyKit.git', :tag => s.version }
- # s.social_media_url = 'https://twitter.com/ericksli'
+  s.social_media_url = 'https://github.com/bugs2'
   s.platform = :ios, '8.0'
   s.source_files = 'HATHandyKit/**/*.{h,m}'
   #s.source_files = 'HATHandyKit/**/*.{h,m}'

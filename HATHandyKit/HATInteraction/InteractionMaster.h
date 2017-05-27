@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "InteractionDelegate.h"
-#import "MBProgressHUD.h"
+
+
+@class HACMBProgressHUD;
 
 typedef void(^ConfirmActionBlock)();
 typedef void(^CancelActionBlock)();

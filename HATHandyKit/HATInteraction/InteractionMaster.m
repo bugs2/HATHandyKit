@@ -9,6 +9,7 @@
 #import "InteractionMaster.h"
 #import "LoadingImageView.h"
 #import "MGPopController.h"
+#import "MBProgressHUD.h"
 #import "define.h"
 
 @implementation HACMBProgressHUD
