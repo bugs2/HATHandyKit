@@ -19,8 +19,8 @@ project 'HATHandyKitDemo/HATHandyKitDemo.xcodeproj'
 #pod 'TBActionSheet'
 #pod 'CocoaLumberjack'
 
-#pod 'HATHandyKit', :path => '.'
-pod 'HATHandyKit', '~> 0.12.0'
+pod 'HATHandyKit', :path => '.'
+#pod 'HATHandyKit', '~> 0.12.0'
 #pod 'HATHandyKit'
 
 #pod 'HATHandyKit', :git => 'https://github.com/bugs2/HATHandyKit.git'
